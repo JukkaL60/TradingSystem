@@ -1,0 +1,9 @@
+# Älä vie token- ja välimuistitiedostoja
+.auth/
+
+# Älä vie ajossa syntyviä tulosteita
+Output/
+
+# Varmuuden vuoksi
+*.Rhistory
+*.RData
