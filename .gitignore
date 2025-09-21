@@ -1,9 +1,20 @@
-# Älä vie token- ja välimuistitiedostoja
+# 🔒 Auth ja salaisuudet
 .auth/
+*.rds
+*token*.json
 
-# Älä vie ajossa syntyviä tulosteita
+# 🗂️ RStudio välimuistit ja istunnon tiedostot
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# 📂 Lokit ja outputit
+Logs/
 Output/
 
-# Varmuuden vuoksi
-*.Rhistory
-*.RData
+# 💻 Kehitysympäristön roskat
+.DS_Store
+Thumbs.db
+.vscode/
+
